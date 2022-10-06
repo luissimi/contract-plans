@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+
+body{
+    height: 100vh;
+    margin: 0;
+
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "main main";
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px 1fr;
+}
+
+header{
+    grid-area: header;
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    align-items: center;
+}
+h1{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 5px;
+}
+
+/* CORPO E CONTEUDO DO PROJETO */
+
+main{
+    grid-area: main;
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 290px;
+    height: 426px;
+    margin-inline: 20px;
+}
+
+.one{
+    background-color:white;
+    box-shadow: 4px 4px 6px rgb(94, 94, 94);
+    border-radius: 10px;
+    
+}
+
+.two{
+    background-color:white;
+    box-shadow: 4px 4px 6px rgb(94, 94, 94);
+    border-radius: 10px;
+}
+
+.tre{
+    background-color:white;
+    box-shadow: 4px 4px 6px rgb(94, 94, 94);
+    border-radius: 10px;
+}
+
+/* divs e suas classes */
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-style: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.imag{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.price b{
+    font-size: 28px;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.buton{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    border-style: none;
+    background-color: #23C281;
+    padding: 10px 60px;
+    border-radius: 20px;
+}
